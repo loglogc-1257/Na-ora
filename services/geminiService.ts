@@ -35,7 +35,7 @@ export const editImageWithNanoBanana = async (
 
     parts.push(textPart);
 
-    const apiKey = process.env.API_KEY as string | undefined;
+        const apiKey = import.meta.env.VITE_GEMINI_API_KEY as string | undefined;
     console.log(`Using API Key: ${apiKey?.substring(0, 4)}...${apiKey?.slice(-4)}`); // Debug log
     if (!apiKey) {
       throw new Error("API_KEY environment variable not set");
@@ -82,7 +82,7 @@ export const generateImageFromText = async (
   prompt: string
 ): Promise<EditedImageResult> => {
   try {
-    const apiKey = process.env.API_KEY as string | undefined;
+        const apiKey = import.meta.env.VITE_GEMINI_API_KEY as string | undefined;
     if (!apiKey) {
       throw new Error("API_KEY environment variable not set");
     }

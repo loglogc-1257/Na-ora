@@ -2,7 +2,7 @@
   "name": "nano-banana-photo-editor",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://<YOUR-USERNAME>.github.io/<YOUR-REPOSITORY-NAME>",
+  "homepage": "https://kenschultz64.github.io/Nano-Banana-App",
   "type": "module",
   "scripts": {
     "dev": "vite",

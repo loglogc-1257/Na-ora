@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/<YOUR-REPOSITORY-NAME>/',
+      base: '/Nano-Banana-App/',
       server: {
         port: 3500,
         host: '0.0.0.0',

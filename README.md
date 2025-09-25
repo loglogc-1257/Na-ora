@@ -12,6 +12,7 @@ An AI-powered image editing application that uses Google's Gemini model to make 
 *   Provide a text prompt to describe the desired edits.
 *   (Optional) Use a masking tool to specify the exact area for the AI to edit.
 *   Generate a new image with the AI-powered changes.
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/gogospelnow)
 
 ---
 

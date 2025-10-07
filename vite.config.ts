@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3500,
         host: '0.0.0.0',
+        
+        // 🛠️ CORRECTION : Cette ligne autorise le domaine de Render
+        allowedHosts: ['na-ora-1.onrender.com'], 
       },
       plugins: [react()],
       resolve: {
